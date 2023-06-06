@@ -1,0 +1,41 @@
+
+
+May 31
+    Heap vs. Stack
+        Heap variables extend beyond specific functions
+
+June 5
+    Objects
+        Implementation
+            Objects are just structs
+
+        properties and access modifiers
+        
+        Constructors/Deconstructors
+            If you define something in the heap in the constructor, you must
+            "delete 
+
+            Deconstructors
+                Run automatically at the end of the "main" program
+
+        Copy constructor
+            creates an object that has the same data but stored at unique memory
+            location. 
+            
+            for ex. Employee c2 = Employee(c1);
+
+    Data management: heap vs. stack vs. global variable
+
+        Destroying data:
+            delete varName; varName = null;
+
+        Java vs C++
+            Java has a garbage collector -> so you don't need to delete
+            variables defined in the heap
+    
+
+
+
+
+
+

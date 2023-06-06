@@ -1,0 +1,26 @@
+
+
+
+
+
+MAC
+
+  Using extension:
+    f6 (fn + sleep)
+
+  Using command line
+    sh -c make -s && ./main
+
+
+
+
+compile cpp code:
+  gcc main.cpp -lstdc++
+  ./a.out
+with output:
+  gcc main.cpp -lstdc++ -o test.exe
+  ./test.exe
+
+
+
+
