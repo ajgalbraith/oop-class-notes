@@ -1,5 +1,6 @@
 .cache/*
 .ccls-cache/*
-output/*
+output/**
+./**/output/**
 *.o
 .vscode/*
