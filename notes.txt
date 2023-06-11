@@ -33,7 +33,17 @@ June 5
             Java has a garbage collector -> so you don't need to delete
             variables defined in the heap
     
+June 7 
+    Classes memory
+        If you just set an object equal to another memory in heap will be same;
+        memory in stack will not be the same
 
+    Accessing (dot vs. ->)
+        foo->bar() is the same as (*foo).bar().
+        
+    Friendship
+        friend: keyword for classes and functions so that they can access
+        private and protected members
 
 
 

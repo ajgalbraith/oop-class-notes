@@ -1,9 +1,17 @@
 
 
+format text to fit into line
+  alt-q
 
+
+to multi line comment 
+  Mac: Shift + Option + A
 
 
 MAC
+
+  new binding to run
+    CMD+Shift+2
 
   Using extension:
     f6 (fn + sleep)
