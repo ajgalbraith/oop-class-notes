@@ -51,25 +51,36 @@ June 12-14
 
     Inheritance
         "this keyword"
-            the "this" keyword is always 'secretly' passed as the first argument to any class method
+            the "this" keyword is always 'secretly' passed as the first argument
+            to any class method
 
         public vs private vs protected
-            public allows access to all methods
-            private allows access to no methods
-            protected allows access to all methods?
+            public allows access to all methods private allows access to no
+            methods protected allows access to all methods?
 
             default = private
 
         "virtual" keyword
-            virtual functions are functions that can be overridden by a derived class
+            virtual functions are functions that can be overridden by a derived
+            class
 
             compiler contains a special table 
-                - contains pointers to all virtual functions
-                - called the virtual function table (vtable)
+                - contains pointers to all virtual functions - called the
+                virtual function table (vtable)
             
             called "late binding"
-                - compiler doesn't know which function to call until runtime
-                - contrasted with early binding (normal function calls)
+                - compiler doesn't know which function to call until runtime -
+                contrasted with early binding (normal function calls)
+            
+            "pure virtual method"
+                - a virtual method that is not defined in the base class
+                - used to force derived classes to implement the method
+                - virtual void intro() = 0;
+                - CANNOT CREATE OBJECTS OF THIS CLASS => HAS NOT IMPLEMENTATION!!!
+                - CAN ONLY CREATE POINTERS TO THIS CLASS
+                    - Person *p = new Student("John", 20, 3.5); 
+                    - p->intro(); // calls Student::intro()
+
 
 
 
